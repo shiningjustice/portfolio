@@ -1,0 +1,44 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: #f6efe7;
+  color: #242424;
+  margin: 1em;
+}
+
+h1, h2, nav > *, .secondaryFont {
+  /* font-family: 'Vesper Libre', serif; */
+  font-family: 'Corben', serif;
+}
+
+main {
+  margin: 7em 0 0;
+}
+
+footer > div {
+  color: gray;
+  font-size: 1em;
+  margin: 2em;
+}
+
+/* Site-wide formatting */
+.bold {
+  font-weight: 600;
+}
+
+.notBold {
+  font-weight: 500;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+}
+
+.underlineOnHover:hover {
+  text-decoration: underline;
+}

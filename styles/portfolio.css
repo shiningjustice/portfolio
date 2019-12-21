@@ -1,0 +1,64 @@
+.portfolioContainer {
+  max-width: 800px;
+}
+
+.Main__section {
+  /* Allows the anchor to the sections to display
+  correctly accounting for the nav bar */
+  margin: -5em 1em 1em; 
+  padding: 5.5em 0 0;
+}
+
+.Main__section > h2, .intro > h2 {
+  font-size: 3em;
+}
+
+div.intro {
+  height: 4em;
+}
+
+h3.intro {
+  font-size: 1.75em;
+  position: relative;
+  top: -1.8em; right: -8.5em;
+}
+
+
+/* 
+.Main__section > h2 {
+  background-color: lightgray;
+  color: transparent;
+  font-size: 3em;
+  text-shadow: 1px 1px 2px black;
+  background-clip: text;
+} */
+
+.Main__section > p {
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolioContainer {
+    margin: 0 2.5em;
+  }
+
+  .Main__section {
+    /* Allows the anchor to the sections to display
+    correctly accounting for the nav bar */
+    margin: -2.5em inherit inherit; 
+    padding: 4em 0 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .portfolioContainer {
+    margin-left: calc((100vw - 800px)/2)
+  }
+}
+
+
+@media screen and (min-width: 1180px) {
+  .portfolioContainer {
+    margin-left: calc((100vw - 800px)/2 + 1em)
+  }
+}
