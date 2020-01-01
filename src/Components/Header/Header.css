@@ -1,4 +1,4 @@
-.Nav__mainContainer {
+.Header {
   background-color: #f6efe7;
   /* background-color: rgb(246,239,231,.5); */
   width: 100vw;
@@ -10,29 +10,16 @@
   position: fixed;
   top: 0; left: 0;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 6px -6px, rgba(0, 0, 0, 0.1) 0px 0px 1px -1px;
+  z-index: 1000;
 }
 
-nav > * {
+.Header > * {
   width: fit-content;
   margin: .5em;
 }
 
-.Nav__ul {
-  display: flex;
-}
-
-.Nav__ul > li {
-  margin: 0 .5em;
-  font-style: italic;
-}
-
-.Nav__mainContainer > a:hover {
-  font-style: normal;
-  text-decoration: underline;
-}
-
 @media screen and (min-width: 768px) {
-  .Nav__mainContainer {
+  .Header {
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1em;
@@ -40,9 +27,21 @@ nav > * {
 }
 
 @media screen and (min-width: 1180px) {
-w  .Nav__mainContainer {
+  .Header {
     background-color: transparent;
-    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.15);
+    /* text-shadow: 0 2px 1px rgba(0, 0, 0, 0.15); */
     box-shadow: none;
+  }
+
+  #scrollMarker {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 80px;
+    left: 0;
+  }
+
+  .Header.scrolling {
+    background-color: black;
   }
 }

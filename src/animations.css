@@ -1,3 +1,24 @@
+/*************************************
+  ANIMATION "INSTRUCTIONS"
+**************************************/
+h3.intro {
+  animation: fadeInDisappear 7s;
+}
+
+/* Dark mode switch transition */
+body, body:before, body:after {
+  transition: .2s ease-in-out;
+}
+
+/* Delays everything from rendering except the items starting the animation */
+/* adds about a second delay before loading, just to be dramatic */
+.notIntro {  
+  animation: fadeInPersist 10s;
+}
+
+/*************************************
+  ANIMATION "FUNCTIONS"
+**************************************/
 .g1 {
   animation: type .1s;
 }
@@ -36,21 +57,6 @@
   animation-delay: 1.3s;
 }
 
-h3.intro {
-  animation: fadeInDisappear 7s;
-}
-
-/* Dark mode switch transition */
-body, body:before, body:after {
-  transition: .2s ease-in-out;
-}
-
-/* Delays everything from rendering except the items starting the animation */
-.notIntro {
-  /* adds about a second delay before loading, just to be dramatic */
-  animation: fadeInPersist 10s;
-}
-
 @keyframes fadeInPersist {
   0% {
     opacity: 0;
@@ -68,6 +74,7 @@ body, body:before, body:after {
 
 @keyframes fadeInDisappear {
   0% {
+    display: inline-block;
     opacity: 0;
   }
   30% {
@@ -94,7 +101,7 @@ body, body:before, body:after {
     opacity: 0;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
@@ -126,3 +133,4 @@ body, body:before, body:after {
     display: none;
   }
 }
+*/

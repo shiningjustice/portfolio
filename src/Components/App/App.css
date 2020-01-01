@@ -1,0 +1,30 @@
+main {
+  margin: 7em 0 0;
+  /* pbtag edit min-height to be 100vh - height of footer */
+  min-height: 100vh;
+}
+
+footer {
+  background: #f6efe7;
+  width: 100%;
+}
+
+footer > div {
+  color: #4c4c4c;
+  font-size: 1em;
+  margin: 2em auto;
+}
+
+@media screen and (min-width: 900px) {
+  footer > div {
+    max-width: 800px;
+    margin-top: 7em;
+    margin-left: calc((100vw - 800px)/2)
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  footer > div {
+    margin-left: calc((100vw - 800px)/2 + 1em)
+  }
+}

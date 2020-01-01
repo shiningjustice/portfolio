@@ -1,0 +1,10 @@
+div.intro {
+  /* height needed otherwise height of container for h2 and h3 includes h3, as if was displayed statically */
+  height: 4em;
+}
+
+h3.intro {
+  font-size: 1.75em;
+  position: relative;
+  top: -1.8em; right: -8.5em;
+}

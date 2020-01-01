@@ -6,19 +6,17 @@ body {
   margin: 1em;
 }
 
+p {
+  text-align: left;
+}
+
 h1, h2, nav > *, .secondaryFont {
   /* font-family: 'Vesper Libre', serif; */
   font-family: 'Corben', serif;
 }
 
-main {
-  margin: 7em 0 0;
-}
-
-footer > div {
-  color: gray;
-  font-size: 1em;
-  margin: 2em;
+h2 {
+  font-size: 2em;
 }
 
 /* Site-wide formatting */
@@ -41,4 +39,10 @@ footer > div {
 
 .underlineOnHover:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 3em;
+  }
 }

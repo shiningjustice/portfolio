@@ -1,0 +1,31 @@
+.Project {
+  margin: 0 0 2em 0;
+}
+
+.Project > h3 {
+  font-size: 1.5em;
+}
+
+.Project > h3,h4 {
+  font-weight: 800;
+}
+
+.Project > *:not(.Button) {
+  margin: .3em 0;
+}
+
+.Project__ul {
+  display: flex;
+  justify-content: center;
+}
+
+/* Skills blocks */
+.Project__ul > li {
+  font-family: 'Corben', serif;
+  font-size: .9em;
+  color: #4c4c4c;
+  letter-spacing: 1px;
+  margin: .7em;
+  padding: .4em .7em;
+  border-radius: 5%;
+}
