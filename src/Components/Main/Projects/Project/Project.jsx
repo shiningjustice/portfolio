@@ -12,13 +12,17 @@ export default function Project (props) {
     <div className="Project">
       <h3>{name}</h3>
       <h4>{subtitle}</h4>
-      <a href={liveSiteUrl} title="View Live Site" target="_blank" rel="noopener noreferrer">
-        <img src={imageUrl} alt={`Screenshot of Phoebe's ${name} project`} className="displayGreyscale"/>
-      </a>
-      <p>{description}</p>
-      <ul className="Project__ul">
-        {skillsApplied.map((skill, index) => <li className="bold" key={index}>{skill}</li>)}
-      </ul>
+      <div className="Project___flexContainer">
+        <a href={liveSiteUrl} title="View Live Site" target="_blank" rel="noopener noreferrer">
+          <img src={imageUrl} alt={`Screenshot of Phoebe's ${name} project`} className="Project__img displayGreyscale"/>
+        </a>
+        <div className="Project___rightColumn">
+          <p>{description}</p>
+          <ul className="Project__ul">
+            {skillsApplied.map((skill, index) => <li className="bold" key={index}>{skill}</li>)}
+          </ul>
+        </div>
+      </div>
       <Button href={liveSiteUrl} target="_blank" rel="noopener noreferrer">View Live</Button>
       {serverRepoUrl ? (
           <>

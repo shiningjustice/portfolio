@@ -5,11 +5,11 @@
 .Button.text {
   font-family: 'Corben', serif;
   font-size: 1.2em;
-  margin: 2pt 1em;
-  padding: .3em 2em .4em;
+  margin: .25em 0;
+  padding: .3em 1em .4em;
   border: 1.5pt solid #4c4c4c; 
   border-radius: 3px;
-  border-radius: 100px;
+  border-radius: 50px;
   background: inherit;
 }
 
@@ -26,7 +26,7 @@
 .Button.text:hover {
   background-color: inherit;
   border: 3.5pt solid #787878;
-  margin: calc(2pt - 2pt) calc(1em - 2pt);
+  margin: calc(2pt - .25em) calc(1em - .25em);
 }
 
 .Button.text:active {
@@ -36,4 +36,10 @@
 }
 .Button:active {
   color: #242424;
+}
+
+@media screen and (min-width: 425px) {
+  .Button.text {
+    margin: .5em;
+  }
 }

@@ -1,5 +1,6 @@
 .Main {
   max-width: 800px;
+  margin: 9em 0;
 }
 
 /* Use .Main__section instead of a child selector because the About section 
@@ -23,7 +24,7 @@ for both containers*/
 
 @media screen and (min-width: 768px) {
   .Main {
-    margin: 0 2.5em;
+    margin: 7em 2.5em;
   }
 
   .Main__section {
@@ -36,7 +37,6 @@ for both containers*/
 
 @media screen and (min-width: 900px) {
   .Main {
-    margin-top: 7em;
     margin-left: calc((100vw - 800px)/2)
   }
 }
@@ -45,4 +45,10 @@ for both containers*/
   .Main {
     margin-left: calc((100vw - 800px)/2 + 1em)
   }
+
+  /* When screen is big enough display the section headers side by side. */
+  .Main__section > * {
+
+  }
+  
 }

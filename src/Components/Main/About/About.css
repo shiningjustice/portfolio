@@ -8,3 +8,47 @@ h3.intro {
   position: relative;
   top: -1.8em; right: -8.5em;
 }
+
+.About___booper {
+  cursor: pointer;
+  background: #f6efe7;
+}
+.About___pigNose {
+  font-size: 1.5em;
+}
+
+.About___booper:hover {
+  transform: translate(0, -2px); 
+}
+.About___booper:active {
+  transform: translate(0, 2px); 
+}
+
+.About___moreInfoContainer {
+  padding: 1.5em;
+  /* border: 5px solid white; */
+  border-radius: 5px;
+}
+
+.About___moreInfoContainer > * {
+  margin: .8em;
+}
+
+.About__img {
+  border: 15px solid white;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 425px) {
+  .About__img {
+    width: 75%; 
+    margin-left: calc(25% / 2)
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .About__img {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
