@@ -54,6 +54,7 @@ h3.intro {
   }
 
   h3.intro {
+    display: inline;
     font-size: 1.75em;
     position: relative;
     top: -1.8em; right: -8.5em;

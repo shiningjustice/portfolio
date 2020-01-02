@@ -1,6 +1,6 @@
 // Frameworks
 import React from 'react';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 // Components
 import dataStore from '../../../helpers/DataStore/dataStore';
 import { ExpandLess } from '@material-ui/icons';

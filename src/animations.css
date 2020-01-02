@@ -1,26 +1,12 @@
 /*************************************
   ANIMATION "INSTRUCTIONS"
 **************************************/
-@media screen and (min-width: 768px) {
-  h3.intro {
-    animation: fadeInDisappear 7s;
-  }
-}
-
 /* Dark mode switch transition */
 body, body:before, body:after {
   transition: .2s ease-in-out;
 }
 
-/* Delays everything from rendering except the items starting the animation */
-/* adds about a second delay before loading, just to be dramatic */
-.notIntro {  
-  animation: fadeInPersist 10s;
-}
-
-/*************************************
-  ANIMATION "FUNCTIONS"
-**************************************/
+/* Types "hello world" */
 .g1 {
   animation: type .1s;
 }
@@ -59,21 +45,29 @@ body, body:before, body:after {
   animation-delay: 1.3s;
 }
 
-@keyframes fadeInPersist {
-  0% {
-    opacity: 0;
-    overflow: hidden;
+/* Delays everything from rendering except the items starting the animation */
+/* adds about a second delay before loading, just to be dramatic */
+.notIntro {  
+  animation: fadeInPersist 5s;
+}
+
+@media screen and (min-width: 768px) {
+  /* Only display "i'm phoebe law" on screens that
+   accomodate the relative positioning... */
+  h3.intro {
+    animation: fadeInDisappear 7s;
   }
-  45% {
-    opacity: 0;
-    overflow: hidden;
-  }
-  100% {
-    opacity: 1;
-    overflow: hidden;
+  /* ... delay the fadeIn of the rest to account
+  for the "I'm Phoebe Law" fadeIn */
+  .notIntro {  
+    animation: fadeInPersist 10s;
   }
 }
 
+/*************************************
+  ANIMATION "FUNCTIONS"
+**************************************/
+/* For the "I'm Phoebe Law" portion */
 @keyframes fadeInDisappear {
   0% {
     display: inline-block;
@@ -94,6 +88,21 @@ body, body:before, body:after {
   }
 }
 
+/* For most of the body */
+@keyframes fadeInPersist {
+  0% {
+    opacity: 0;
+    overflow: hidden;
+  }
+  45% {
+    opacity: 0;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 1;
+    overflow: hidden;
+  }
+}
 
 @keyframes type {
   0% {
