@@ -4,8 +4,8 @@
 
 .Button.text {
   font-family: 'Corben', serif;
-  font-size: 1.2em;
-  margin: .25em 0;
+  font-size: 1em;
+  margin: .3em;
   padding: .3em 1em .4em;
   border: 1.5pt solid #4c4c4c; 
   border-radius: 3px;
@@ -26,7 +26,7 @@
 .Button.text:hover {
   background-color: inherit;
   border: 3.5pt solid #787878;
-  margin: calc(2pt - .25em) calc(1em - .25em);
+  margin: calc(.3em - 2pt);
 }
 
 .Button.text:active {
@@ -40,6 +40,6 @@
 
 @media screen and (min-width: 425px) {
   .Button.text {
-    margin: .5em;
+    font-size: 1.1em;
   }
 }
