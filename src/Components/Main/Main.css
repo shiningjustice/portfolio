@@ -40,15 +40,3 @@ for both containers*/
     margin-left: calc((100vw - 800px)/2)
   }
 }
-
-@media screen and (min-width: 1180px) {
-  .Main {
-    margin-left: calc((100vw - 800px)/2 + 1em)
-  }
-
-  /* When screen is big enough display the section headers side by side. */
-  .Main__section > * {
-
-  }
-  
-}
