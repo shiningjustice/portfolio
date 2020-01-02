@@ -44,14 +44,14 @@ const dataStore = {
     //   clientRepoUrl: 'https://github.com/thinkful-ei-gecko/phoebe-bookmarks-app'
     // }, 
     {
-      name: 'Fridg-U-Dare',
-      subtitle: 'A Food Inventory App to Reduce Waste',
-      imageUrl: 'https://i.imgur.com/4HpBw3Z.png',
-      description: "Fridg·u·Dare was born from a desire to 1.) reduce food waste and 2.) save time and money. By keeping an inventory of what's in your fridge, visually aging items by item type, and keeping this as simple as possible, users should be able to accomplish both goals in a feasible way. Follow link for link to live app.",
-      skillsApplied: ['HTML', 'CSS3', 'JavaScript', 'React', 'Jest', 'Enzyme', 'Node.js', 'PostgreSQL', 'Knex', 'Postgrator', 'Mocha', 'Chai', 'Supertest'],
-      liveSiteUrl: 'https://fridgeudare.now.sh/',
-      clientRepoUrl: 'https://github.com/shiningjustice/fridgeudare-client', 
-      serverRepoUrl: 'https://github.com/shiningjustice/fridgeudare-server'
+      name: 'Anonygram',
+      subtitle: 'An Instagram-Style Bulletin Board',
+      imageUrl: 'https://i.imgur.com/g9lMcoe.png',
+      description: "Anonygram is a social media platform created to encourage community engagement and exploration. By combining the best of platforms like the anonymity of Reddit, image-focused sharing of Instagram, and location-based service of Yelp, users can see and share posts from their local area. As a modern community bulletin-board, it helps the local community engageme with today's digital customers, explorers, artists and activists.",
+      skillsApplied: ['HTML', 'CSS3', 'JavaScript', 'React', 'Jest', 'Enzyme', 'Node.js', 'Multer', 'AWS SDK', 'Sharp', 'Google Vision', 'Google Places', 'PostgreSQL', 'Knex', 'Mocha', 'Chai', 'Supertest', 'JSON Web Token', 'bcryptjs'],
+      liveSiteUrl: 'https://anonygram.now.sh/',
+      clientRepoUrl: 'https://github.com/thinkful-ei-gecko/anonygram-client', 
+      serverRepoUrl: 'https://github.com/thinkful-ei-gecko/anonygram-server'
     },
     {
       name: 'Iranta',
@@ -64,14 +64,14 @@ const dataStore = {
       serverRepoUrl: 'https://github.com/thinkful-ei-gecko/phoebe-kevin-esperanto-server'
     },
     {
-      name: 'Anonygram',
-      subtitle: 'An Instagram-Style Bulletin Board',
-      imageUrl: 'https://i.imgur.com/Bo11sSt.png',
-      description: "Anonygram is a social media platform created to encourage community engagement and exploration. By combining the best of platforms like the anonymity of Reddit, image-focused sharing of Instagram, and location-based service of Yelp, users can see and share posts from their local area. As a modern community bulletin-board, it helps the local community engageme with today's digital customers, explorers, artists and activists.",
-      skillsApplied: ['HTML', 'CSS3', 'JavaScript', 'React', 'Jest', 'Enzyme', 'Node.js', 'Multer', 'AWS SDK', 'Sharp', 'Google Vision', 'Google Places', 'PostgreSQL', 'Knex', 'Mocha', 'Chai', 'Supertest', 'JSON Web Token', 'bcryptjs'],
-      liveSiteUrl: 'https://anonygram.now.sh/',
-      clientRepoUrl: 'https://github.com/thinkful-ei-gecko/anonygram-client', 
-      serverRepoUrl: 'https://github.com/thinkful-ei-gecko/anonygram-server'
+      name: 'Fridg-U-Dare',
+      subtitle: 'A Food Inventory App to Reduce Waste',
+      imageUrl: 'https://i.imgur.com/4HpBw3Z.png',
+      description: "Fridg·u·Dare was born from a desire to 1.) reduce food waste and 2.) save time and money. By keeping an inventory of what's in your fridge, visually aging items by item type, and keeping this as simple as possible, users should be able to accomplish both goals in a feasible way. Follow link for link to live app.",
+      skillsApplied: ['HTML', 'CSS3', 'JavaScript', 'React', 'Jest', 'Enzyme', 'Node.js', 'PostgreSQL', 'Knex', 'Postgrator', 'Mocha', 'Chai', 'Supertest'],
+      liveSiteUrl: 'https://fridgeudare.now.sh/',
+      clientRepoUrl: 'https://github.com/shiningjustice/fridgeudare-client', 
+      serverRepoUrl: 'https://github.com/shiningjustice/fridgeudare-server'
     },
   ],
 };
