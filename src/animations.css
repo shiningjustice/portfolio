@@ -1,8 +1,10 @@
 /*************************************
   ANIMATION "INSTRUCTIONS"
 **************************************/
-h3.intro {
-  animation: fadeInDisappear 7s;
+@media screen and (min-width: 768px) {
+  h3.intro {
+    animation: fadeInDisappear 7s;
+  }
 }
 
 /* Dark mode switch transition */

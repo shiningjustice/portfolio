@@ -4,9 +4,8 @@ div.intro {
 }
 
 h3.intro {
-  font-size: 1.75em;
-  position: relative;
-  top: -1.8em; right: -8.5em;
+  display: none;
+  opacity: 0;
 }
 
 .About___booper {
@@ -15,6 +14,8 @@ h3.intro {
 }
 .About___pigNose {
   font-size: 1.5em;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .About___booper:hover {
@@ -50,5 +51,11 @@ h3.intro {
   .About__img {
     width: 50%;
     margin-left: 25%;
+  }
+
+  h3.intro {
+    font-size: 1.75em;
+    position: relative;
+    top: -1.8em; right: -8.5em;
   }
 }

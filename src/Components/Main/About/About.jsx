@@ -68,7 +68,7 @@ export default function About (props) {
         people I love, climb, or pick something to do from a myriad of hobbies.</p>
         <div onClick={() => toggleMoreDisplay()} className="notIntro About___booper">
           {toggleMore ? (
-            <span title="boop for more" className="About___pigNose displayGreyscale" role="img" aria-label="emoji of pig nose">🐽</span>
+            <span title="boop for more" className="About___pigNose" role="img" aria-label="emoji of pig nose">🐽</span>
           ) : (
             <ExpandLess style={{ fontSize: 40 }} />
           )}
@@ -77,13 +77,13 @@ export default function About (props) {
           <img src={photoOfPhoebe.url} alt={photoOfPhoebe.alt} className="displayGreyscale About__img"/>
           <div className="About___pContainer">
             <p>
-              The marriage between functionality and design something that I always come back to when talking about what I love to do. Sometimes distinct, other times overlapping, and still other times interchangeable, producing excellence in both function and design is an ellusive pursuit. It's hard to create, but clear when present. 
+              The marriage between functionality and design is something that I always come back to when talking about what I love to do. Sometimes distinct, other times overlapping, and still other times interchangeable, producing excellence in both function and design is an ellusive pursuit. It's hard to create, but clear when present. 
             </p>
             <p>
               Doing so means having a clear purpose, which drives the design, which requires experience and intuition, which drives functionality, requiring skill and expertise. It's a lot! I am by no means a master of these things, but I pursue them to achieve a quiet, but elegant, solution.
             </p>
             <p>
-              While I am newer player in the tech field, my pursuit of excellence in developing creative and effective solutions to problems has been tested through getting my Bachelor's of Linguistics at UCLA and, more practically, through working in administration for a smaller but successful engineering company. ___________________
+              While I am newer player in the tech field, my pursuit of excellence in developing creative and effective solutions to problems has been tested through getting my Bachelor's of Linguistics at UCLA and, more practically, through working in administration for a smaller but successful engineering company. 
             </p>
           </div>
         </div>
