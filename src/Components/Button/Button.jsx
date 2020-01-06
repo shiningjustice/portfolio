@@ -5,22 +5,31 @@ import cx from 'classnames';
 // Styles
 import './Button.css';
 
-const Button = React.forwardRef(({ className, href, ...props }, ref) => {
+const Button = React.forwardRef(({ className, href, ariaLabel, ...props }, ref) => {
   // Text buttons are formatted differently from symbol buttons, even if they just are "button" links
   const typeOfChild = typeof props.children;
   if (href && typeOfChild === "string") {
     return (
-      <a href={href} className={cx('Button text Button__link bold', className)} rel="noopener noreferrer" {...props} />
+      <a 
+        href={href} 
+        className={cx(`Button text Button__link bold`, className)} 
+        rel="noopener noreferrer" 
+        {...props} />
     )
-  } else if (typeOfChild === "string") {
+  } else if (href) {
     return (
-      <button className={cx('Button text bold', className)} ref={ref} {...props} />
+      <a 
+        href={href} 
+        aria-label={ariaLabel}
+        className={cx(`Button ${typeOfChild === "string" && "text"} Button__link bold`, className)} 
+        rel="noopener noreferrer" 
+        {...props} />
     )
   } else {
     return (
-      <a href={href} className={cx('Button Button__link bold', className)} rel="noopener noreferrer" {...props} />
+      <button className={cx(`Button text ${typeOfChild === "string" && "text"} bold`, className)} ref={ref} {...props} />
     )
-  }
+  } 
 });
 
 export default Button;
