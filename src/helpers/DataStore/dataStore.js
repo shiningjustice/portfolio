@@ -47,7 +47,7 @@ const dataStore = {
       name: 'Anonygram',
       subtitle: 'An Instagram-Style Bulletin Board',
       imageUrl: 'https://i.imgur.com/g9lMcoe.png',
-      description: "Anonygram is a social media platform created to encourage community engagement and exploration. By combining the best of platforms like the anonymity of Reddit, image-focused sharing of Instagram, and location-based service of Yelp, users can see and share posts from their local area. As a modern community bulletin-board, it helps the local community engageme with today's digital customers, explorers, artists and activists.",
+      description: "Anonygram is a social media platform created to encourage community engagement and exploration. By combining the best of platforms like the anonymity of Reddit, image-focused sharing of Instagram, and location-based service of Yelp, users can see and share posts from their local area. As a modern community bulletin-board, it helps the local community engagement with today's digital customers, explorers, artists and activists.",
       skillsApplied: ['HTML', 'CSS3', 'JavaScript', 'React', 'Jest', 'Enzyme', 'Node.js', 'Multer', 'AWS SDK', 'Sharp', 'Google Vision', 'Google Places', 'PostgreSQL', 'Knex', 'Mocha', 'Chai', 'Supertest', 'JSON Web Token', 'bcryptjs'],
       liveSiteUrl: 'https://anonygram.now.sh/',
       clientRepoUrl: 'https://github.com/thinkful-ei-gecko/anonygram-client', 
