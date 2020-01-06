@@ -30,14 +30,20 @@ h3.intro {
   /* border: 5px solid white; */
   border-radius: 5px;
 }
-
 .About___moreInfoContainer > * {
   margin: .8em;
 }
-
 .About__img {
   border: 15px solid white;
   border-radius: 50%;
+}
+.About__a {
+  font-style: italic;
+  text-decoration: none;
+  color: inherit;
+}
+.About__a:hover {
+  font-weight: 600;
 }
 
 @media screen and (min-width: 425px) {
