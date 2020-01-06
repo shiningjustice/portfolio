@@ -20,7 +20,7 @@ function App() {
       <input type="checkbox" id="switch" class="lightSwitch" /> */}
 
       <footer>
-        <div className="notIntro secondaryFont italic">© 2019-2020 Phoebe Law</div>
+        <div className="notIntro secondaryFont italic">&copy; 2019-{new Date().getFullYear()} Phoebe Law</div>
       </footer>
     </div>
   );
