@@ -8,8 +8,8 @@ is nested within another div for the intro animation */
 .Main__section {
   /* Allows the anchor to the sections to display
   correctly accounting for the nav bar */
-  margin: -5em 1em 4em; 
-  padding: 5.5em 0 0;
+  margin: -9em 1em 4em; 
+  padding: 9em 0 0;
 }
 
 .Main__section > h2 {
@@ -24,14 +24,14 @@ for both containers*/
 
 @media screen and (min-width: 768px) {
   .Main {
-    margin: 7em 2.5em;
+    margin: 8em 2.5em;
   }
 
   .Main__section {
     /* Allows the anchor to the sections to display
     correctly accounting for the nav bar */
-    margin: -2.5em inherit inherit; 
-    padding: 4em 0 0;
+    margin-top: -8em; 
+    padding-top: 8em;
   }
 }
 
