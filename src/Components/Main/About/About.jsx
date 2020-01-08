@@ -83,7 +83,7 @@ export default function About (props) {
               Doing so means having a clear purpose, which drives the design, which requires experience and intuition, which drives functionality, requiring skill and expertise. It's a lot! I am by no means a master of these things, but I pursue them to achieve a quiet, but elegant, solution.
             </p>
             <p>
-              While I am newer player in the tech field, my pursuit of excellence in developing creative and effective solutions to problems has been tested through getting my Bachelor's of Linguistics at UCLA and, more practically, through working in administration for a smaller but successful engineering company. <a className="About__a" title="Take me to the contact section!" href="#contact">I'm currently job hunting</a> and am looking forward to working alongside and learning from a team of great programmers.
+              While I am newer player in the tech field, my pursuit of excellence in developing creative and effective solutions to problems has been tested through getting my Bachelor's of Linguistics at UCLA and, more practically, through working in administration for a smaller but successful engineering company. <a className="About__a" title="Take me to the contact section!" href="#Contact">I'm currently job hunting</a> and am looking forward to working alongside and learning from a team of great programmers.
             </p>
           </div>
         </div>
