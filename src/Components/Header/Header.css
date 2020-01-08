@@ -30,5 +30,7 @@
   .Header {
     background-color: transparent;
     box-shadow: none;
+    /* lets you interact with the body when it intersects with the header container */
+    z-index: -10;
   }
 }
