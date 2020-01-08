@@ -10,7 +10,7 @@ export default function Header(props) {
     <header className={`Header ${props.inheritedClassName}`}>
       <Nav></Nav>
       <h1 className="font1 bold">
-        <a href="https://shiningjustice.github.io" className="resetStyles">Phoebe Law</a>
+        <a href="https://phoebecodes.now.sh" className="resetStyles">Phoebe Law</a>
       </h1>
     </header>
   );

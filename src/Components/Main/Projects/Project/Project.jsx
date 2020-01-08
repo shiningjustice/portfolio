@@ -26,11 +26,11 @@ export default function Project (props) {
       <Button href={liveSiteUrl} target="_blank" rel="noopener noreferrer">View Live</Button>
       {serverRepoUrl ? (
           <>
-            <Button href={clientRepoUrl} className="text" target="_blank" rel="noopener noreferrer">View Client Repository</Button>
-            <Button href={serverRepoUrl} className="text" target="_blank" rel="noopener noreferrer">View Server Repository</Button>      
+            <Button href={clientRepoUrl} className="text">View Client Repository</Button>
+            <Button href={serverRepoUrl} className="text">View Server Repository</Button>      
           </>
         ) : (
-          <Button href={clientRepoUrl} target="_blank" rel="noopener noreferrer">View Repository</Button>
+          <Button href={clientRepoUrl}>View Repository</Button>
         )
       }
     </div>
