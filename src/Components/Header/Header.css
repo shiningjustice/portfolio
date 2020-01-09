@@ -28,7 +28,13 @@
 
 @media screen and (min-width: 1300px) {
   .Header {
+    -webkit-transition: background-color .35s ease-in-out;
+    transition: background-color .35s ease-in-out;
     background-color: transparent;
     box-shadow: none;
+  }
+
+  .Header:hover {
+    background-color: #f6efe7bf;
   }
 }
