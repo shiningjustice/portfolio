@@ -28,13 +28,18 @@
 
 @media screen and (min-width: 1300px) {
   .Header {
-    -webkit-transition: background-color .35s ease-in-out;
-    transition: background-color .35s ease-in-out;
+    -webkit-transition-property: background-color, box-shadow;
+    transition-property: background-color, box-shadow;
+    -webkit-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
     background-color: transparent;
     box-shadow: none;
   }
 
   .Header:hover {
     background-color: #f6efe7bf;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 6px -9px, rgba(0, 0, 0, 0.1) 0px 0px 1px -1px;
   }
 }
