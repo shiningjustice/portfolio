@@ -39,7 +39,7 @@ export default function About (props) {
     <section id="About" className={`About ${props.inheritedClassName}`}>
       <h2>hello world</h2>
       <div className="About___infoContainer">
-        <p>I'm a Junior Full-stack Javascript Developer driven by creativity and 
+        <p>I'm a Full-stack Javascript Developer driven by creativity and 
         excellence. I love making beautifully functional (and functionally 
         beautiful) things.</p>
         <p>When I'm not coding or trying to describe myself I spend time with 
@@ -61,7 +61,7 @@ export default function About (props) {
               Doing so means having a clear purpose, which drives the design, which requires experience and intuition, which drives functionality, requiring skill and expertise. It's a lot! I am by no means a master of these things, but I pursue them to achieve a quiet, but elegant, solution.
             </p>
             <p>
-              While I am newer player in the tech field, my pursuit of excellence in developing creative and effective solutions to problems has been tested through getting my Bachelor's of Linguistics at UCLA and, more practically, through working in administration for a smaller but successful engineering company. <a className="About__a" title="Take me to the contact section!" href="#Contact">I'm currently job hunting</a> and am looking forward to working alongside and learning from a team of great programmers.
+              My pursuit of excellence in developing creative and effective solutions to problems has been tested through getting my Bachelor's of Linguistics at UCLA and, more practically, through working in administration for a successful mid-sized engineering company. <a className="About__a" title="Take me to the contact section!" href="#Contact">I'm currently job hunting</a> and am looking forward to working alongside and learning from a team of great programmers.
             </p>
           </div>
         </div>
