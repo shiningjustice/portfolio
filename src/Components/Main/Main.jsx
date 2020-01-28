@@ -10,9 +10,9 @@ import './Main.css';
 export default function Main () {
   return (
     <main className="Main">
-      <About inheritedClassName="Main__section"></About>
-      <Projects inheritedClassName="Main__section notIntro"></Projects>
-      <Contact inheritedClassName="Main__section notIntro"></Contact>
+      <About></About>
+      <Projects></Projects>
+      <Contact></Contact>
     </main>
   );
 };

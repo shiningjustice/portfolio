@@ -1,13 +1,3 @@
-div.intro {
-  /* height needed otherwise height of container for h2 and h3 includes h3, as if was displayed statically */
-  height: 4em;
-}
-
-h3.intro {
-  display: none;
-  opacity: 0;
-}
-
 .About___booper {
   cursor: pointer;
   background: #f6efe7;
@@ -57,12 +47,5 @@ h3.intro {
   .About__img {
     width: 50%;
     margin-left: 25%;
-  }
-
-  h3.intro {
-    display: inline;
-    font-size: 1.75em;
-    position: relative;
-    top: -1.8em; right: -8.5em;
   }
 }
