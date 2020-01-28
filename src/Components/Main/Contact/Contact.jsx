@@ -2,7 +2,7 @@
 import React from 'react';
 // Components
 import Button from '../../Button/Button'
-import { Email, GitHub, LinkedIn } from '@material-ui/icons'
+import { Email, GitHub, LinkedIn, Twitter } from '@material-ui/icons'
 // Styles
 import './Contact.css';
 
@@ -17,6 +17,7 @@ export default function Contact (props) {
           <Button href="mailto:phoebecodes@gmail.com" ariaLabel="Click to send me an email"><Email style={{ fontSize: 40 }} /></Button>
           <Button href="https://github.com/shiningjustice" ariaLabel="Click to visit my GitHub"><GitHub style={{ fontSize: 40 }} /></Button>
           <Button href="https://linkedin.com/in/phoebecodes" ariaLabel="Click to visit my LinkedIn"><LinkedIn style={{ fontSize: 40 }} /></Button>
+          <Button href="https://twitter.com/phoebecodes" ariaLabel="Click to visit my Twitter"><Twitter style={{ fontSize: 40 }} /></Button>
         </div>
       </div>
     </section>
