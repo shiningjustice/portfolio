@@ -4,6 +4,7 @@ body {
   background: #f6efe7;
   color: #242424;
   margin: 1em;
+  animation: fadeInPersist 2s;
 }
 
 ::selection {
@@ -64,5 +65,20 @@ img {
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 3em;
+  }
+}
+
+@keyframes fadeInPersist {
+  0% {
+    opacity: 0;
+    overflow: hidden;
+  }
+  45% {
+    opacity: 0;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 1;
+    overflow: hidden;
   }
 }
