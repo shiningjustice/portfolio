@@ -28,6 +28,7 @@
 
 @media screen and (min-width: 1300px) {
   .Header {
+    /* adds shadow and transition properties */
     -webkit-transition-property: background-color, box-shadow;
     transition-property: background-color, box-shadow;
     -webkit-transition-duration: .35s;
@@ -36,10 +37,12 @@
     transition-timing-function: ease-in-out;
     background-color: transparent;
     box-shadow: none;
+    color: #4c4c4c;
   }
 
   .Header:hover {
     background-color: #f6efe7bf;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 6px -9px, rgba(0, 0, 0, 0.1) 0px 0px 1px -1px;
+    color: #242424;
   }
 }

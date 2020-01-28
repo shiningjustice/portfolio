@@ -1,16 +1,7 @@
-div.intro {
-  /* height needed otherwise height of container for h2 and h3 includes h3, as if was displayed statically */
-  height: 4em;
-}
-
-h3.intro {
-  display: none;
-  opacity: 0;
-}
-
 .About___booper {
   cursor: pointer;
   background: #f6efe7;
+  animation: shake 10s linear 2s infinite;
 }
 .About___pigNose {
   font-size: 1.5em;
@@ -58,11 +49,22 @@ h3.intro {
     width: 50%;
     margin-left: 25%;
   }
+}
 
-  h3.intro {
-    display: inline;
-    font-size: 1.75em;
-    position: relative;
-    top: -1.8em; right: -8.5em;
+@keyframes shake {
+  20%, 23.5% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20.5%, 24% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  21%, 22%, 23% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  21.5%, 22.5% {
+    transform: translate3d(4px, 0, 0);
   }
 }

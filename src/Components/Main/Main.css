@@ -3,31 +3,19 @@
   margin: 9em 0;
 }
 
-/* Use .Main__section instead of a child selector because the About section 
-is nested within another div for the intro animation */
-.Main__section {
+.Main > section {
   /* Allows the anchor to the sections to display
   correctly accounting for the nav bar */
   margin: -9em 1em 4em; 
   padding: 9em 0 0;
 }
 
-.Main__section > h2 {
+.Main > section > h2 {
   margin: 0 0 .2em;
-}
-/* Same as above, but measured differently per intro items being in their own 
-container (to be able to display the h3 relatively) -- "em" unit resizes diff 
-for both containers*/
-.Main__section.About > .intro {
-  margin: 0 0 .6em;
 }
 
 @media screen and (min-width: 768px) {
-  .Main {
-    margin: 8em 2.5em;
-  }
-
-  .Main__section {
+  .Main > section {
     /* Allows the anchor to the sections to display
     correctly accounting for the nav bar */
     margin-top: -8em; 
@@ -37,6 +25,13 @@ for both containers*/
 
 @media screen and (min-width: 900px) {
   .Main {
-    margin-left: calc((100vw - 800px)/2)
+    margin: 7em auto auto calc((100vw - 800px)/2);
+  }
+
+  .Main > section {
+    /* Allows the anchor to the sections to display
+    correctly accounting for the nav bar */
+    margin-top: -1em; 
+    padding-top: 1em;
   }
 }
