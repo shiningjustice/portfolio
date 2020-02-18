@@ -18,7 +18,7 @@ export default function Contact (props) {
           <Button href="https://github.com/shiningjustice" title="GitHub: @shiningjustice" ariaLabel="Click to visit my GitHub"><GitHub style={{ fontSize: 40 }} /></Button>
           <Button href="https://linkedin.com/in/phoebecodes" title="LinkedIn: @phoebecodes" ariaLabel="Click to visit my LinkedIn"><LinkedIn style={{ fontSize: 40 }} /></Button>
           <Button href="https://twitter.com/phoebecodes" title="Twitter: @phoebecodes" ariaLabel="Click to visit my Twitter"><Twitter style={{ fontSize: 40 }} /></Button>
-          <Button href="https://drive.google.com/file/d/1Sq3GJKnCWMCQ_z2CzTXlR62CrJMbaJpw/view?usp=sharing" title="Resume" ariaLabel="Click to view my resume"><Description style={{ fontSize: 40 }} /></Button>
+          <Button href="https://drive.google.com/open?id=1-ni1b1ojQYz_Kh78UZgsgXSrTMovh0Zi" title="Resume" ariaLabel="Click to view my resume"><Description style={{ fontSize: 40 }} /></Button>
         </div>
       </div>
     </section>
