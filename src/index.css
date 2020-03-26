@@ -31,6 +31,10 @@ img {
 }
 
 /* Site-wide formatting */
+.text-left {
+  text-align: left;
+}
+
 .bold {
   font-weight: 600;
 }
