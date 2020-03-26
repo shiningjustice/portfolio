@@ -5,7 +5,7 @@
 import React from 'react';
 // Components 
 import Header from '../Header/Header';
-import Main from '../Main/Main';
+import Main from '../../Pages/Main/Main';
 // Styles
 import './App.css';
 import '../scrollbar.css';
